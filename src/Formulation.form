@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Formulation">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <preferredSize width="300" height="300"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="bcf86" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="Usuario:"/>
+        </properties>
+      </component>
+      <component id="f13dc" class="javax.swing.JTextField" binding="txtUsr">
+        <constraints/>
+        <properties>
+          <columns value="30"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="588e8" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="Contraseña:"/>
+        </properties>
+      </component>
+      <component id="6b584" class="javax.swing.JPasswordField" binding="passwordField1" default-binding="true">
+        <constraints/>
+        <properties>
+          <columns value="30"/>
+        </properties>
+      </component>
+      <component id="e6379" class="javax.swing.JButton" binding="JButtonIngresar">
+        <constraints/>
+        <properties>
+          <text value="Ingresar"/>
+        </properties>
+      </component>
+      <component id="8f2a2" class="javax.swing.JButton" binding="JButtonSalir">
+        <constraints/>
+        <properties>
+          <text value="Salir"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
